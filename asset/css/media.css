@@ -1,0 +1,403 @@
+/* media query for navbar */
+@media only screen and (max-width: 599px){
+    .navimg {
+        width: 125px !important;
+    }}
+
+    /* media query for navbar */
+@media (min-width: 990px) and (max-width: 1146px) {
+      .navbar-expand-lg {
+        width: 100%;
+      }
+    }
+
+
+
+  /* query for counter cards */
+/* Custom media queries for screen sizes between 590px and 1308px */
+@media (min-width: 590px) and (max-width: 637px) {
+    .col-custom {
+        flex: 0 0 50%;
+        max-width: 35%;
+    }
+}
+@media (min-width: 638px) and (max-width: 767px) {
+    .col-custom {
+        flex: 0 0 50%;
+        max-width: 35%;
+        height: 250px;
+    }}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-custom {
+        flex: 0 0 33.3333%;
+        max-width: 25.3333%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1308px) {
+    .col-custom {
+        flex: 0 0 25%;
+        max-width: 20%;
+    }
+}
+    /* media query for "we are section" */
+@media (max-width: 768px) {
+      .youtube iframe {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+/* Media query for page banner */
+@media (min-width: 768px) {
+    .responsive-img {
+        max-width: 100%; /* Limit image width to 80% of its container on larger screens */
+        max-height: 190px;
+    }
+}
+
+@media (max-width: 764px) {
+    .responsive-img {
+        max-width: 100%; /* Limit image width to 80% of its container on larger screens */
+        max-height: 157px;
+    }
+}
+
+/* Media query for extra-large screens */
+@media (min-width: 1200px) {
+    .responsive-img {
+        max-width: 100%; /* Limit image width to 60% of its container on extra-large screens */
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    .responsive-img{
+        max-height: 90px;
+    }
+} 
+
+@media (max-width: 430px) {
+    .responsive-img{
+        height: 17vh;
+    }
+} 
+
+
+@media (max-width: 344px) {
+    .responsive-img{
+        max-height: 103px;
+    }
+} 
+
+/* About us page Media queries */
+
+@media (max-width: 766px){
+    .infoabout2 {
+        position: relative;
+        top: -255px;
+}
+}
+
+@media (max-width: 766px){
+    .info_mvo{
+        position: relative;
+        top: -278px;
+    }
+}
+
+/* our team query */
+
+@media (max-width: 1399px){
+    .our-team .pic {
+        max-height: 276px;
+    }
+}
+@media (max-width: 1199px){
+    .our-team .pic {
+        max-height: 229px;
+    }
+}
+@media (max-width: 990px){
+    .our-team .pic {
+        max-height: 164px;
+    }
+}
+@media (max-width: 766px){
+    .our-team .pic {
+        max-height: 255px;
+    }
+    #our-team {
+        position: relative;
+        top: -314px;
+}
+}
+@media (max-width: 574px) {
+    .our-team .pic {
+        max-height: 326px;
+        max-width: 306px;
+    }
+    .teamcontainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .teamrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*meet our team section*/
+@media (max-width: 1399px){
+    .our-team .pic1 img {
+        max-height: 149px;
+}
+    .our-team .pic1{
+        max-height: 147px;
+    }
+}
+@media (max-width: 1199px){
+    .our-team .pic1 img {
+        max-height: 122px;
+}
+    .our-team .pic1{
+        max-height: 121px;
+    }
+}
+@media (max-width: 990px){
+    .our-team .pic1 img {
+        max-height: 149px;
+        border-radius: 50%;
+}
+    .our-team .pic1{
+        max-height: 147px;
+    }
+    .leader {
+        flex: 0 0 50%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 766px){
+    .our-leaders{
+        position: relative;
+        top: -299px;
+    }
+    .leader {
+        flex: 0 0 50%;
+        max-width: 33%;
+    }
+}
+@media (max-width: 500px){
+    .our-team .pic1 img {
+        max-height: 149px;
+        border-radius: 50%;
+}
+    .our-team .pic1{
+        max-height: 147px;
+    }
+    .leader {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* media quiry for achivement page */
+@media (max-width: 1399px){
+    .awardcard {
+        max-height: 624px;
+}
+}
+@media (max-width: 990px){
+    .awardcard {
+        max-height: 528px;
+}
+}
+@media (max-width: 574px){
+    .awardcard {
+        max-height: 680px;
+}
+}
+
+/* media query for carrer page */
+@media (max-width: 992px) {
+    .c-card{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+ @media (max-width: 979px) {
+    .career .col-md-8,
+    .career .col-md-4,
+    .career .c-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* find us media quiry*/
+@media (max-width: 1200px) {
+    .find-us .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 50%;
+        max-height: 539px;
+}
+    }
+
+@media (max-width: 768px) {
+    .find-us .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 90%;
+            }
+        }
+        
+@media (max-width: 377px) {
+            .find-us .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                max-height: 394px;
+            }
+        }
+        
+@media (max-width: 390px) {
+    .find-us .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 90%;
+        max-height: 533px;
+    }
+}
+@media (max-width: 370px) {
+    .find-us .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 90%;
+        max-height: 612px;
+    }
+}
+@media (max-width: 341px) {
+    .find-us .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 90%;
+        max-height: 650px;
+    }
+}
+
+/* contact us page */
+
+@media (max-width: 1399px){
+    .contact-form{
+        width: 557px;
+}
+}
+
+@media (max-width: 1199px){
+    .contact-form{
+        width: 467px;
+}
+}
+
+@media (max-width: 991px){
+    .contact-form{
+        width: 347px;
+}
+}
+
+@media (max-width: 766px){
+    .contact-form{
+        width: 513px;
+}
+}
+
+@media (max-width: 541px){
+    .contact-form{
+        width: 513px;
+}
+}
+@media (max-width: 534px){
+    .contact-form{
+        width: 513px;
+}
+}
+@media (max-width: 300px){
+    .contact-form{
+        max-width: 247px;
+}
+}
+
+
+
+@media (max-width: 430px){
+    .product-image3 iframe{
+        width: 355px;
+    }
+}
+
+/* Media Queries for blog page */
+@media screen and (max-width: 1000px) {
+  .projcard-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projcard {
+    flex-direction: column;
+  }
+  
+  .projcard-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .projcard-textbox {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projcard {
+    width: 100%;
+  }
+  
+  .projcard-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .projcard-textbox {
+    padding: 10px;
+  }
+  
+  .projcard-title {
+    font-size: 20px;
+  }
+  
+  .projcard-subtitle {
+    font-size: 16px;
+  }
+}
+
+
+/* media quiry for course detail page */
+
+@media (max-width: 990px) {
+    .course-info {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
